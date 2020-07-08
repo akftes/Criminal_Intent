@@ -2,6 +2,7 @@ package com.example.criminalintent;
 
 import android.content.Context;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CrimeLab {
@@ -15,6 +16,6 @@ public class CrimeLab {
     }
 
     private  CrimeLab(Context context){
-
+        mCrimes=new ArrayList<>();
     }
 }
